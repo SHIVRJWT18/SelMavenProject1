@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T17:54:21 IST" name="Default suite" finished-at="2024-05-23T17:54:30 IST" duration-ms="8643">
+  <suite started-at="2024-05-24T16:43:01 IST" name="Default suite" finished-at="2024-05-24T16:43:15 IST" duration-ms="14404">
     <groups>
     </groups>
-    <test started-at="2024-05-23T17:54:21 IST" name="Default test" finished-at="2024-05-23T17:54:30 IST" duration-ms="8643">
-      <class name="SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting">
-        <test-method is-config="true" signature="loadBaseUrl()[pri:0, instance:SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting@6e57e95e]" started-at="2024-05-23T17:54:21 IST" name="loadBaseUrl" finished-at="2024-05-23T17:54:24 IST" duration-ms="3220" status="PASS">
+    <test started-at="2024-05-24T16:43:01 IST" name="Default test" finished-at="2024-05-24T16:43:15 IST" duration-ms="14404">
+      <class name="SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL">
+        <test-method is-config="true" signature="loadBaseUrl()[pri:0, instance:SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL@6e57e95e]" started-at="2024-05-24T16:43:01 IST" name="loadBaseUrl" finished-at="2024-05-24T16:43:10 IST" duration-ms="9170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="VerifyHighestPriceForProductWhenHighToLowFilter()[pri:0, instance:SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting@6e57e95e]" started-at="2024-05-23T17:54:24 IST" name="VerifyHighestPriceForProductWhenHighToLowFilter" finished-at="2024-05-23T17:54:29 IST" duration-ms="5075" status="PASS">
+        <test-method signature="VerifySuccessfulSignIn()[pri:0, instance:SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL@6e57e95e]" started-at="2024-05-24T16:43:10 IST" name="VerifySuccessfulSignIn" finished-at="2024-05-24T16:43:15 IST" duration-ms="4770" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyHighestPriceForProductWhenHighToLowFilter -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting@6e57e95e]" started-at="2024-05-23T17:54:29 IST" name="screenshotAndDeleteCookies" finished-at="2024-05-23T17:54:30 IST" duration-ms="280" status="PASS">
+        </test-method> <!-- VerifySuccessfulSignIn -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL@6e57e95e]" started-at="2024-05-24T16:43:15 IST" name="screenshotAndDeleteCookies" finished-at="2024-05-24T16:43:15 IST" duration-ms="309" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyHighestPriceForProductWhenHighToLowFilter status=SUCCESS method=TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting.VerifyHighestPriceForProductWhenHighToLowFilter()[pri:0, instance:SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting@6e57e95e] output={null}]]]>
+                <![CDATA[[TestResult name=VerifySuccessfulSignIn status=SUCCESS method=TC01_VerifySuccessfulSignInWithValidateURL.VerifySuccessfulSignIn()[pri:0, instance:SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL@6e57e95e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="closerReporter()[pri:0, instance:SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting@6e57e95e]" started-at="2024-05-23T17:54:30 IST" name="closerReporter" finished-at="2024-05-23T17:54:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closerReporter()[pri:0, instance:SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL@6e57e95e]" started-at="2024-05-24T16:43:15 IST" name="closerReporter" finished-at="2024-05-24T16:43:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closerReporter -->
-      </class> <!-- SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting -->
+      </class> <!-- SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

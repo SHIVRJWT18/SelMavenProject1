@@ -21,9 +21,12 @@ public class ExcelUtils {
 	public static String[] getToReadExcelData(String sTestCaseID, String Sheeet)
 	{
 		String sData[]=null;
+		
+		
 		try
 		{
-			FileInputStream fis = new FileInputStream(new File("F:\\SwagLabTestData.xlsx"));
+			String filepath = PropertiesLoader.getProperties("TestDataPath");
+			FileInputStream fis = new FileInputStream(new File(filepath));
 			try (XSSFWorkbook wb = new XSSFWorkbook(fis)) {
 				XSSFSheet sht = wb.getSheet(Sheeet);
 				int iRowNum= sht.getLastRowNum();

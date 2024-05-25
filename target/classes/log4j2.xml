@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" strict="true">
+  <Appenders>
+  <Appender type = "Console" name= "STDOUT">
+  <Layout type = "PatternLayout"
+        pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+  </Appender>"F:\SHIV NEWSCRIPTS\SelMavenProject1\src\main\resources\log4j2.xml"
+ 
+  <Appender
+      type= "File" name="File" fileName="F:\\SHIV SCRIPTS\\SelMavenProject1\\Logs\\automationLogs.log">
+     <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      
+      </Appender>
+    </Appenders> 
+ 
+  <Loggers>
+    <Root level="trace">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+</Configuration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SwagLabsTestCases.TC01_VerifySuccessfulSignInWithValidateURL"/>
+      <class name="SwagLabsTestCases.TC04_VerifyNoOfPagesAgainstAbout_Resources_SeleniumHeadingPage"/>
+      <class name="SwagLabsTestCases.TC02_VerifyHighestPriceForProductWhenHighToLowFilterAppliedForProductSorting"/>
+      <class name="SwagLabsTestCases.TC03_VerifyErrorNotification_FirstNameisrequired"/>
+      <class name="SwagLabsTestCases.TC05_VerifyToOrderSecondNumberProductWhenZToAFilterAppliedForProductSorting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
