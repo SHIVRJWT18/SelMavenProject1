@@ -24,9 +24,9 @@ public class TC01_VerifySuccessfulSignInWithValidateURL extends TestBase
 	  data = ExcelUtils.getToReadExcelData(sTestCaseID, Sheet);
 		    	
 	  SwagLabs_PageFactory.loginpage loginpage = new SwagLabs_PageFactory.loginpage(driver);
-		    		
-	        loginpage.LaunchTheUrl();
-	  
+		    		    
+            loginpage.LaunchTheUrl();
+            
             loginpage.ValidateTheUrl();
             
             loginpage.EnterUsername(data[1]);

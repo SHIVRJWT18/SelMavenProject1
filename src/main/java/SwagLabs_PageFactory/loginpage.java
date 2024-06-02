@@ -36,7 +36,7 @@ public class loginpage extends BasePage
 	
 	public void LaunchTheUrl() throws IOException
 	{				
-		givenUrl = PropertiesLoader.getProperties("baseUrl");
+		givenUrl = PropertiesLoader.getProperties("baseurl");
 		
 		System.out.println("The actual Url is: "+givenUrl+"123");
 		
@@ -64,25 +64,49 @@ public class loginpage extends BasePage
      log.info("Validate the test Url");
     }
 
- 	public void EnterUsername(String EnterUsername)
+ 	public void EnterUsername(String GivenUsername)
  	{
  	 elem = getWebElement(EnterUsernameElem);
+ 	 
+ 	 if(GivenUsername!=null)
+ 	 {
+ 	  try 
+ 	  {
+ 		 GivenUsername = PropertiesLoader.getProperties(GivenUsername);
+	  } 
+ 	  catch (IOException e) 
+ 	  {
+			e.printStackTrace();
+	  }
+ 	 }	 
 
- 	 elem.sendKeys(EnterUsername);
+ 	 elem.sendKeys(GivenUsername);
  		
- 	 System.out.println("Enter Username is: "+EnterUsername);
+ 	 System.out.println("Enter Username is: "+GivenUsername);
  		
  	 log.info("Enter the Username");
 
  	}
 
- 	public void EnterPassword(String Enterpassword)
+ 	public void EnterPassword(String Givenpassword)
  	{
  	 elem = getWebElement(EnterpasswordElem);
+ 	 
+ 	 if(Givenpassword!=null)
+ 	 {
+ 	  try 
+ 	  {
+ 		 Givenpassword = PropertiesLoader.getProperties(Givenpassword);
+	  } 
+ 	  catch (IOException e) 
+ 	  {
+			e.printStackTrace();
+	  }
+ 	 }	 
  		
- 	 elem.sendKeys(Enterpassword);
+ 	 elem.sendKeys(Givenpassword);
  		
- 	 System.out.println("Enter Password is: "+Enterpassword);
+ 	 System.out.println("Enter Password is: "+Givenpassword);
  		
  	 log.info("Enter the Password");
  		

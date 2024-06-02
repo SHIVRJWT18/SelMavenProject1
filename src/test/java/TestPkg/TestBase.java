@@ -35,7 +35,7 @@ public class TestBase {
         		
     	driver.manage().window().maximize();
 		
-		String Testurl = PropertiesLoader.getProperties("baseUrl"); 
+		String Testurl = PropertiesLoader.getProperties("baseurl"); 
 					    
 	    driver.get(Testurl);	    			    
     }
